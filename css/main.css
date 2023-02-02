@@ -1,0 +1,230 @@
+
+
+body{
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    background-size: cover;
+    background-image: linear-gradient(rgb(252, 249, 79), white);
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 80px;
+    font-size-adjust: 1.5;
+    margin: 10px;
+    padding: 10px;
+}
+
+header nav ul li{
+    margin: 30px;
+    padding: 10px;
+    width: 20rem;
+    display: inline-block;
+    list-style:none;
+    background-color: rgb(230, 227, 231);
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform:uppercase;
+    text-align: center;
+    position:sticky;
+    top: 0;
+    z-index: 4;
+    box-shadow: 5px 3px rgb(70, 69, 69);
+    border-radius: 100%; 
+    
+
+}
+header nav ul li:hover{
+    background-color: rgb(247, 125, 69);
+}
+footer{
+    width:500px
+}
+    
+/*estilos del index*/
+
+.contenedor-uno{
+    display: grid;
+    grid-template-columns: 2fr 2 fr 1fr;
+    grid-template-rows: 0.5fr 1fr 2fr 0.5fr;
+    grid-template-areas: 
+      "header header header"
+      "main main  aside"
+      "main main aside"
+      "footer footer footer";
+    gap: 10px;
+
+}
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+
+}
+footer{
+    grid-area: footer;
+
+}
+main img{
+    width: 28%;}
+.centrarSubtitulo{
+    width: 600px;
+    color: red;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-size-adjust:1.5;
+    
+}
+.formatoTexto1{
+    font-family: 'Arimo', sans-serif;
+    text-align: justify;
+    font-size: 35px;
+    font-size-adjust: 1.5;
+}
+.formatoTexto2{
+    font-family: 'Arimo', sans-serif;
+    text-align: justify;
+    font-size: 35px;
+    font-size-adjust:1.5;
+}
+ body main h3 {
+    
+    text-transform:uppercase ;
+    width: 400px;
+}
+
+/*estilos de docente*/
+.contenedor-dos{
+    display: grid;
+    grid-template-columns: 2fr 2 fr 1fr;
+    grid-template-rows: 0.5fr 1fr 2fr 0.5fr;
+    grid-template-areas: 
+      "header header header"
+      "main main  aside"
+      "main main aside"
+      "footer footer footer";
+    gap: 10px;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+.formatoTexto4{
+    font-family: 'Arimo', sans-serif;
+    font-size: large;
+    text-transform: uppercase;
+    background-color: rgb(250, 247, 247);
+    
+}
+
+/*estilos de alumnos*/
+
+.contenedor-tres{
+    display: grid;
+    grid-template-columns: 2fr 2 fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr  0.5fr;
+    grid-template-areas: 
+      "header header header"
+      "main main  aside"
+      "footer footer footer";
+    gap: 10px;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+.formatoTexto5{
+    font-family: 'Arimo', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+/*estilos de comunidad*/
+.contenedor-cuatro{
+    display: grid;
+    grid-template-columns: 2fr 2 fr 1fr;
+    grid-template-rows: 0.5fr 1fr 2fr 0.5fr;
+    grid-template-areas: 
+      "header header header"
+      "main main  aside"
+      "main main aside"
+      "footer footer footer";
+    gap: 10px;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+.estiloTexto{
+    font-family: 'Arimo', sans-serif;
+    width: 200px;
+}
+
+/*estilos de contacto*/
+.contenedor-cinco{
+    display: grid;
+    grid-template-columns: 2fr 1 fr 2fr;
+    grid-template-rows: 0.4fr 2fr 2fr;
+    grid-template-areas: 
+      "header header header"
+      "main main  aside"
+      "footer footer footer";
+    gap: 5px;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+.formatoTexto6{
+    font-family: 'Arimo', sans-serif;
+text-align: justify;
+}
+
+
+/*pantalla de tablets*/
+
+
